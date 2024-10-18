@@ -51,14 +51,11 @@ video {
   white-space: pre-wrap;
   margin: 0 auto;
   letter-spacing: 3.5%;
-  transition: opacity 0.5s ease;
   width: 730px;
   margin: 0 auto;
   margin-bottom: 300px;
   padding-right: 20px;
 }
-
-
 
 .title:hover {
   opacity: 1;
@@ -71,8 +68,8 @@ video {
   line-height: 35px;
   background-color: white;
   border-radius: 20px;
-  border: 2px solid #000000;
-  border-bottom: 12px solid #000000;
+  border: 2px solid black;
+  border-bottom: 12px solid black;
   font-size: 2vw;
   text-align: left;
   padding: 36px;
@@ -88,20 +85,13 @@ video {
 
 .title::after {
   content: "*";
-  box-sizing: border-box;
 }
-
 
 .title:hover {
   opacity: 1;
   color: rgba(76, 76, 76, 1);
 }
 
-.fonvideo {
-  opacity: 1;
-}
-
 .title:hover ~ .fonvideo {
   opacity: 0.8;
 }
-
