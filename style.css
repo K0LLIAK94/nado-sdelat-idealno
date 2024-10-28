@@ -88,6 +88,6 @@ video {
   color: rgba(76, 76, 76, 1);
 }
 
-.title:hover ~ .fonvideo {
+.title:hover + .fonvideo {
   opacity: 0.8;
 }
